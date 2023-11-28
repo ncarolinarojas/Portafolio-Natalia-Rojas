@@ -1,0 +1,30 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    color: rgb(69, 69, 69);
+    font-family: 'Lato', sans-serif;
+    padding: 40px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    color: rgb(69, 69, 69);
+}
+
+.principal {
+    font-weight: bold;
+}
