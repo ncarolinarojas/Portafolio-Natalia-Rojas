@@ -5,21 +5,31 @@ const Navbar = () => {
     return (
         <nav className='nav'>
             <ul className='principal'>
-                <p>Portafolio</p>
+            <li>
+                    <NavLink className={isActive =>
+                        (isActive ? 'link' : 'undefined')
+                    } to={'/'}>Portafolio</NavLink>
+                </li>
             </ul>
             <ul className='options'>
                 <li>
-                    <NavLink to={'/about-me'}>Sobre mi</NavLink>
+                    <NavLink className={isActive =>
+                        (isActive ? 'link' : 'undefined')
+                    } to={'/about-me'}>Sobre mi</NavLink>
                 </li>
                 <li>
-                    <NavLink to={'/projects'}>Proyectos</NavLink>
+                    <NavLink className={isActive =>
+                        (isActive ? 'link' : 'undefined')
+                    } to={'/projects'}>Proyectos</NavLink>
                 </li>
                 <li>
-                    <NavLink to={'/tools'}>Herramientas</NavLink>
+                    <NavLink className={isActive =>
+                        (isActive ? 'link' : 'undefined')
+                    } to={'/tools'}>Contacto</NavLink>
                 </li>
             </ul>
         </nav>
     )
 }
 
-export default  Navbar;
+export default Navbar;

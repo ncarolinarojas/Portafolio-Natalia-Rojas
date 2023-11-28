@@ -10,6 +10,7 @@
     color: rgb(69, 69, 69);
     font-family: 'Lato', sans-serif;
     padding: 40px;
+
 }
 
 ul {
@@ -27,4 +28,10 @@ ul {
 
 .principal {
     font-weight: bold;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(69, 69, 69);
+    cursor: pointer;
 }
