@@ -1,6 +1,6 @@
 .layout {
     display: flex;
     flex-direction: column;
+    text-align: center;
     margin-top: 70px;
-    align-items: center;
 }
