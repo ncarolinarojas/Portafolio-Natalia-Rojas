@@ -1,11 +1,10 @@
 import '../App.css';
 import { Routes, Route } from 'react-router-dom';
 import Home from '../Pages/Home/index.jsx';
-import AboutMe from '../Pages/About-me/index';
-import Projects from '../Pages/Projects/index';
-import Tools from '../Pages/Tools/index';
 import Navbar from '../components/Navbar';
-import { PortfolioProvider } from '../Context/index.jsx'
+import AboutMe from '../components/Aboutme/index.jsx';
+import Projects from '../components/Projects/index.jsx';
+import { PortfolioProvider } from '../Context/index.jsx';
 
 
 function App() {
@@ -16,9 +15,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/about-me' element={<AboutMe />}></Route>
-          <Route path='/projects' element={<Projects />}></Route>
-          <Route path='/tools' element={<Tools />}></Route>
+          <Route path='/#about-me' element={<AboutMe />}></Route>
+          <Route path='/#projects' element={<Projects />}></Route>
         </Routes>
       </PortfolioProvider>
     </>
