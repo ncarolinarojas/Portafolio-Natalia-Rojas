@@ -1,16 +1,41 @@
-.container-front-page {
-    width: 100%;
-    height: 300px;
-    background-image: url('../../assets/dev.png');
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.text-focus-in {
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+    color: rgb(250, 171, 250);
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
-.title {
-    font-size: 50px;
-    color: white;
-    font-family: 'Shadows Into Light', cursive;
+@media screen and (max-width: 768px) {
+    .text-focus-in {
+        font-size: 40px;
+    }
 }
 
+@-webkit-keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}

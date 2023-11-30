@@ -6,17 +6,16 @@ import AboutMe from '../components/Aboutme/index.jsx';
 import Projects from '../components/Projects/index.jsx';
 import { PortfolioProvider } from '../Context/index.jsx';
 
-
 function App() {
 
   return (
     <>
       <PortfolioProvider>
-        <Navbar />
+        <Navbar/>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/#about-me' element={<AboutMe />}></Route>
-          <Route path='/#projects' element={<Projects />}></Route>
+          <Route path='#about-me' element={<AboutMe/>}></Route>
+          <Route path='#projects' element={<Projects/>}></Route>
         </Routes>
       </PortfolioProvider>
     </>
