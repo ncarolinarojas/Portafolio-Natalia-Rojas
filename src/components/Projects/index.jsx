@@ -1,14 +1,24 @@
+import '../Projects/style.css';
+import Card from '../Card';
+import photoShopi from '../../assets/Shopi.png'
+
 const Projects = () => {
     return (
-        <div>
-            <div className='project1'>
-                <h3>Shopi E-commerce</h3>
+        <div className='container-projects'>
+            <div>
+                <h2>
+                    Projects
+                </h2>
             </div>
-            <div className='project2'>
-                <h3>Rick and Morty App</h3>
-            </div>
-            <div className='project3'>
-                <h3>Countries App</h3>
+            <div>
+                <Card
+                project={"Shopi E-commerce"}
+                tools={["React.js", " ,TailwindCSS", " , useContext", " , API Fake Platzi"]}
+                photo={photoShopi}
+                urlpage={"https://shopi-e-commerce.netlify.app/"}
+                use={"Make shopping, add products at card, view products after make the checkout and when user finally do the checkout, view their order."}
+                urlRepo={"https://github.com/ncarolinarojas/Shop_Prueba"}
+                />
             </div>
         </div>
     )
