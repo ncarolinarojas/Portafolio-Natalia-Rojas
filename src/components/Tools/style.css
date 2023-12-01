@@ -1,13 +1,17 @@
 .container-tool {
     color: white;
     margin-bottom: 40px;
+    border-bottom-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
 }
 
-.title-tool{
-    margin-bottom: 50px;
+.title-tool {
+    margin-bottom: 30px;
 }
 
 .tools {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 40px;
 }

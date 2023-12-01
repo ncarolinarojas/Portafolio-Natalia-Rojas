@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar';
 import AboutMe from '../components/Aboutme/index.jsx';
 import Projects from '../components/Projects/index.jsx';
 import { PortfolioProvider } from '../Context/index.jsx';
+import Footer from '../components/Footer/index.jsx';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
           <Route path='#about-me' element={<AboutMe/>}></Route>
           <Route path='#projects' element={<Projects/>}></Route>
         </Routes>
+        <Footer/>
       </PortfolioProvider>
     </>
   )
