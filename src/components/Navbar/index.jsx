@@ -7,20 +7,20 @@ const Navbar = () => {
     return (
         <nav className='navbar navbar-expand-lg navbar-dark navbar-transparent'>
             <div className='container-fluid'>
-                <NavLink className='navbar-brand fs-4 fw-bold' to='/'>Portafolio</NavLink>
+                <NavLink className='navbar-brand fs-4 fw-bold' to='/'>Portfolio</NavLink>
                 <button className='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'>
                     <span className='navbar-toggler-icon'></span>
                 </button>
                 <div className='collapse navbar-collapse' id='navbarNav'>
-                    <ul className='navbar-nav ms-auto'> {/* Cambié justify-content-end por ms-auto para alinear a la derecha */}
+                    <ul className='navbar-nav ms-auto'> 
                         <li className='nav-item'>
-                            <NavLink className='nav-link fs-5 fw-bold' to='/about-me'>Sobre mi</NavLink>
+                            <NavLink className='nav-link fs-5 fw-bold' to='/about-me'>About me</NavLink>
                         </li>
                         <li className='nav-item'>
-                            <NavLink className='nav-link fs-5 fw-bold' to='/projects'>Proyectos</NavLink>
+                            <NavLink className='nav-link fs-5 fw-bold' to='/projects'>Projects</NavLink>
                         </li>
                         <li className='nav-item'>
-                            <NavLink className='nav-link fs-5 fw-bold' to='/tools'>Contacto</NavLink>
+                            <NavLink className='nav-link fs-5 fw-bold' to='/tools'>Contact</NavLink>
                         </li>
                     </ul>
                 </div>
