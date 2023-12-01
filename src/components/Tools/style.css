@@ -1,0 +1,13 @@
+.container-tool {
+    color: white;
+    margin-bottom: 40px;
+}
+
+.title-tool{
+    margin-bottom: 50px;
+}
+
+.tools {
+    display: flex;
+    justify-content: space-evenly;
+}
