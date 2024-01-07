@@ -14,6 +14,9 @@ const Form = () => {
         <div className="form-content">
             <form action="https://formsubmit.co/nataliarojasco22@gmail.com" method="POST" className="inputs">
                 <div>
+                    <h2>Fill out the form to contact me via email</h2>
+                </div>
+                <div>
                     <label htmlFor='name'>Name </label>
                     <br />
                     <input type="text" name='name' />

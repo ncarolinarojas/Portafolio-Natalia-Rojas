@@ -1,11 +1,16 @@
-import Form from '../../components/Form/index'
-import InformationContact from '../../components/InformationContact/index'
+import Form from '../../components/Form/index';
+import InformationContact from '../../components/InformationContact/index';
+import '../Contact/contact.css';
 
 const Contact = () => {
     return (
-        <div>
-            <InformationContact/>
-            <Form/>
+        <div className='container-contact'>
+            <div>
+                <Form />
+            </div>
+            <div>
+                <InformationContact />
+            </div>
         </div>
     )
 }

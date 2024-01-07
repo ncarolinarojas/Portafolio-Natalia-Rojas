@@ -26,6 +26,10 @@ const AboutMe = () => {
                     <br />
                     <span>and experience in purchasing analyst, sales and customer service.</span>
                     <br />
+                    <span>In addition, I am passionate about languages, so I am Intermediate English B2</span>
+                    <br />
+                    <span>and I study German in my free time (I'm beginner).</span>
+                    <br />
                     <span>I invite you to look at my projects!!</span>
                 </p>
             </div>
