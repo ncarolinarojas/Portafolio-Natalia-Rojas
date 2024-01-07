@@ -48,7 +48,7 @@ const Form = () => {
 
                 <div>
                     <input type="submit" value={'Submit'} onClick={() => handleChange()} />
-                    <input type="hidden" name="_next" value="http://localhost:5173/contact" />
+                    <input type="hidden" name="_next" value="https://portfolio-natalia-rojas.netlify.app/" />
                     <input type="hidden" name="_captcha" value="false" />
                 </div>
 
