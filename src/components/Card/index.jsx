@@ -19,7 +19,7 @@ function Card({ project, tools, photo, urlPage, use, urlRepo}) {
                     <button>view page</button>
                 </a>
                 <a href={urlRepo} target="_blank">
-                    <button>view code</button>
+                    <button className='button2'>view code</button>
                 </a>
                 </div>
             </div>

@@ -1,0 +1,19 @@
+.form-content {
+    background: linear-gradient(50deg,
+            rgba(40, 42, 55, 1) 10%,
+            rgba(40, 42, 55, 0.7));
+    width: 500px;
+    height: 500px;
+    margin-left: 50px;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+}
+
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}

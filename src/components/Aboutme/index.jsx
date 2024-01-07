@@ -7,7 +7,7 @@ const AboutMe = () => {
     return (
         <div className='container-about-me'>
             <div className='div1'>
-                <figure>
+                <figure className='pic-profile'>
                     <img
                         className='photo'
                         src={photo}
@@ -17,16 +17,14 @@ const AboutMe = () => {
                 </figure>
             </div>
             <div className='div2'>
-                <h2>Natalia Rojas</h2>
+                <h2>I'm Natalia Rojas</h2>
                 <h3>FullStack Developer | Business Manager</h3>
                 <p>
-                    <span>Full Stack Developer and Business Management passionate about new technologies </span>
+                    <span>I'm a FullStack Developer and Business Management passionate about new technologies and continuos learning,</span>
                     <br />
                     <span>with solid knowledge in React, Node, Bootstrap, PostgreSQL</span>
                     <br />
                     <span>and experience in purchasing analyst, sales and customer service.</span>
-                    <br />
-                    <span>Passionate about electronic commerce as a fusion of both careers</span>
                     <br />
                     <span>I invite you to look at my projects!!</span>
                 </p>

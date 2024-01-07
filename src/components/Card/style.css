@@ -13,7 +13,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-button {
+.button2 {
     text-decoration: none;
     position: relative;
     border: none;
@@ -31,7 +31,7 @@ button {
     margin: 10px;
   }
   
-  button:hover {
+  .button2:hover {
     animation: ani 8s linear infinite;
     border: none;
   }
@@ -46,7 +46,7 @@ button {
     }
   }
   
-  button:before {
+  .button2:before {
     content: '';
     position: absolute;
     top: -5px;
@@ -60,11 +60,11 @@ button {
     transition: 1s;
   }
   
-  button:hover::before {
+  .button2:hover::before {
     filter: blur(20px);
   }
   
-  button:active {
+  .button2:active {
     background: linear-gradient(32deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
   }
 

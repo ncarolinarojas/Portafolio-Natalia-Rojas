@@ -2,9 +2,10 @@
     color: white;
     display: flex;
     justify-content: center;
-    margin-top: auto; 
+    margin-top: 20px; 
     border-top: 2px solid white;
     padding-top: 10px;
+    margin-bottom: 20px;
 }
 
 .redes {
