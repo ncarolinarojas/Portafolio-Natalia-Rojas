@@ -5,15 +5,17 @@ import '../Contact/contact.css';
 const Contact = () => {
     return (
         <div className='container-contact'>
-            <div>
-                <Form />
-            </div>
-            <div>
-                <InformationContact />
+            <div className='row'>
+                <div className='col-md-6'>
+                    <Form />
+                </div>
+                <div className='col-md-6'>
+                    <InformationContact />
+                </div>
             </div>
         </div>
-    )
+    );
 }
 
-export default Contact
+export default Contact;
 
